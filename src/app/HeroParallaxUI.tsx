@@ -72,26 +72,31 @@ export const products = [
     title: "Renderwork Studio",
     link: "https://renderwork.studio",
     thumbnail:
-""  },
+      ""
+  },
 
   {
     title: "Creme Digital",
     link: "https://cremedigital.com",
     thumbnail:
-""  },
+      ""
+  },
   {
     title: "Golden Bells Academy",
     link: "https://goldenbellsacademy.com",
     thumbnail:
-""  },
+      ""
+  },
   {
     title: "Invoker Labs",
     link: "https://invoker.lol",
     thumbnail:
-""  },
+      ""
+  },
   {
     title: "E Free Invoice",
     link: "https://efreeinvoice.com",
     thumbnail:
-""  },
+      ""
+  },
 ];
