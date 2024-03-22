@@ -2,6 +2,7 @@ import { FloatingNavUI } from "./FloatingNavUI";
 import { WavyBackgroundUI } from "./WavyBackgroundUI";
 import { MacbookScrollUI } from "./MacbookScrollUI";
 import { HeroParallaxUI } from "./HeroParallaxUI";
+import { HeroScrollUI } from "./HeroScrollUI";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <FloatingNavUI />
       <WavyBackgroundUI />
       <MacbookScrollUI />
+      <HeroScrollUI />
       <HeroParallaxUI />
     </main>
   );

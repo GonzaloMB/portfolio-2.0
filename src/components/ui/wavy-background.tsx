@@ -10,9 +10,9 @@ export const WavyBackground = ({
   colors,
   waveWidth,
   backgroundFill,
-  blur = 1,
+  blur = 10,
   speed = "fast",
-  waveOpacity = 0.1,
+  waveOpacity = 0.5,
   ...props
 }: {
   children?: any;
@@ -62,11 +62,11 @@ export const WavyBackground = ({
   };
 
   const waveColors = colors ?? [
-    "#8a429c",
-    "#ffffff",
-    "#b051ca",
-    "#7b5bdc",
-    "#886fd5",
+    "#38bdf8",
+    "#818cf8",
+    "#c084fc",
+    "#e879f9",
+    "#22d3ee",
   ];
   const drawWave = (n: number) => {
     nt += getSpeed();
